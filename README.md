@@ -6,3 +6,5 @@ Understanding authentication using passportJS
 - Install necessary packages
 - Add root route and template
 - Add secret route and template
+- Create user model
+- Configure passport to use the user model
