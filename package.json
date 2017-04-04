@@ -1,0 +1,28 @@
+{
+  "name": "authenticationdemo",
+  "version": "1.0.0",
+  "description": "Understanding authentication using passportJS\r - Get cozy with auth flow\r - Disscuss & Express session\r - Establish folder structure\r - Install necessary packages\r - Add root route and template\r - Add secret route and template",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elijahchen/Authentication_Demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elijahchen/Authentication_Demo/issues"
+  },
+  "homepage": "https://github.com/elijahchen/Authentication_Demo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "mongoose": "^4.9.3",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0"
+  }
+}
