@@ -8,3 +8,5 @@ Understanding authentication using passportJS
 - Add secret route and template
 - Create user model
 - Configure passport to use the user model
+- Add register routes
+- Add register form
