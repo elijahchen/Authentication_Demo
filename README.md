@@ -10,3 +10,4 @@ Understanding authentication using passportJS
 - Configure passport to use the user model
 - Add register routes
 - Add register form
+- Setup sign-up route
