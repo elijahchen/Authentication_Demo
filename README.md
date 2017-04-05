@@ -13,3 +13,5 @@ Understanding authentication using passportJS
 - Setup sign-up route
 - Add login route
 - Add login form
+- Add logout route
+- Add login persistence middleware
