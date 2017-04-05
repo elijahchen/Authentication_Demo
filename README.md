@@ -11,3 +11,5 @@ Understanding authentication using passportJS
 - Add register routes
 - Add register form
 - Setup sign-up route
+- Add login route
+- Add login form
