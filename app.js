@@ -32,7 +32,7 @@ app.get("/", function (req, res) {
     res.render("home");
 });
 
-app.get("/secret", function (req, res) {
+app.get("/secret", isLoggedIn, function (req, res) {
     res.render("secret");
 });
 
@@ -67,6 +67,13 @@ app.get("/logout", function (req, res) {
     req.logout();
     res.redirect("/");
 });
+
+function isLoggedIn(req, res, next){
+    if(req.isAuthenticated()){
+        return next();
+    }
+    res.redirect("/login");
+}
 
 app.listen(3000, process.env.port, function () {
     console.log("Server Started!");
